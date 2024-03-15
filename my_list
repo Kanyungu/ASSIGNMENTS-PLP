@@ -1,0 +1,26 @@
+my_list = []
+
+# Append elements
+my_list.append(10)
+my_list.append(20)
+my_list.append(30)
+my_list.append(40)
+
+# Insert element at position 2
+my_list.insert(2, 15)
+
+# Extend list with another list
+my_list.extend([50, 60, 70])
+
+# Remove last element
+my_list.pop()
+
+# Sort the list
+my_list.sort()
+
+# Find index of 30
+index = my_list.index(30)
+
+# Print the list and the index
+print(my_list)
+print(f"Index of 30: {index}")
